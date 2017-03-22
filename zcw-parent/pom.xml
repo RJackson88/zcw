@@ -4,23 +4,18 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.eightyeight</groupId>
-	<artifactId>zcw</artifactId>
+	<artifactId>zcw-parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ZCW</name>
-	<description>ZCW text based simulation</description>
+	<name>zcw-parent</name>
+	<description>ZCW Parent Module</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.2.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>org.eightyeight</groupId>
+		<artifactId>zcw</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
 	</parent>
-
-	<modules>
-		<module>zcw-parent</module>
-	</modules>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
