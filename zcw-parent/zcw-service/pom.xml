@@ -4,24 +4,17 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.eightyeight</groupId>
-	<artifactId>zcw-parent</artifactId>
+	<artifactId>zcw-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>zcw-dao</name>
-	<description>ZCW Parent module</description>
-
-	<modules>
-        <module>zcw-domain</module>
-        <module>zcw-dao</module>
-        <module>zcw-service</module>
-    </modules>
+	<name>zcw-service</name>
+	<description>ZCW Service module</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.2.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<groupId>org.eightyeight</groupId>
+		<artifactId>zcw-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 	<properties>
